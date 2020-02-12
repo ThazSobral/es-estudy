@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const { promisify } = require('util')
 
-const basePath = './assets/'
+const basePath = '../assets/poema/'
 
 // #Promise encadeada
 // ##as promisees podem ser encadeadas e se tornarem dependentes uma das outras
