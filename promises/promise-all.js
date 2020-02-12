@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const { promisify } = require('util')
 
-const basePath = './assets/'
+const basePath = '../assets/poema/'
 
 // #Promise.all
 // ##é tentado executar todaos thens ao mesmo tempo.

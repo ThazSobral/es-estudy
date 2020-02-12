@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const path = require('path')
-const basePath = './assets'
+const basePath = '../assets/poema/'
 // ##Apenas printa o conteúdo
 function cb (err, data) {
   if (err) throw err

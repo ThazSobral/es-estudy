@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const { promisify } = require('util')
 
-const basePath = './assets/'
+const basePath = '../assets/poema/'
 
 // ##Principio de promisees encadeadas utilizando recursividade
 const readFileAsync = promisify(fs.readFile)

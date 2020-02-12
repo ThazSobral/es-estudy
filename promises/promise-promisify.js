@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const { promisify } = require('util')
 
-const basePath = './assets/'
+const basePath = '../assets/poema/'
 
 // #Promisificando a função
 // ##equivalente a função readFileAsync do arquivo promise-principle.js

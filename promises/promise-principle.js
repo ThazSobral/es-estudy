@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const basePath = './assets/'
+const basePath = '../assets/poema/'
 
 function readFileAsync (path, options) {
   return new Promise ((resolve, reject) => {
